@@ -1,0 +1,30 @@
+#review {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#product{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+#product div img{
+  height: 250px;
+}
+#product div img:hover{
+    scale:1.2;
+    transition: all 1s;
+}
+#last {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #efeadf;
+    padding: 60px;
+    
+  }
+  #service div a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+  }

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./product.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+        * {
+          font-family: "Poetsen One", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        #shopnow{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 100px;
+            width: 200px;
+        }
+        #shopnow div img{
+            height: 500px;
+            padding: 10px;
+            
+
+        }
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            align-items: center;
+            position: sticky;
+            z-index: 10;
+            margin-top: 0px;
+            top: 0px;
+            background-color: #efeadf;
+          }
+          li ul {
+            display: flex;
+            list-style-type: none;
+          }
+          li a {
+            text-decoration: none;
+            margin: 15px;
+            padding: 15px;
+          }
+          ul li i {
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+          }
+          #btn2{
+            width: 300px;
+            margin: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px;
+          }
+          #btn2:hover{
+            background-color: rgb(218, 98, 118);
+            transition: 0.5s;
+          }
+          #button {
+            color: white;
+            background-color: rgb(218, 98, 118);
+            padding: 10px;
+            font-size: 20px;
+            border: none;
+            text-align: center;
+            transition: all 0.5s;
+            cursor: pointer;
+            width: 500px;
+            margin: 10px;
+            
+          }
+          .quantity-box{
+            
+            margin: 10px;
+          }
+          #d2{
+            padding: 30px;
+          }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>
+          <img
+            src="https://skins.minimog.co/cdn/shop/files/cake_logo.png?v=1659952798&width=300"
+            alt=""
+          /> 
+        </li>
+        <li>
+          <ul>
+            <li><a style="color: #6d4f4f;" href="#">Home</a></li>
+            <li><a style="color: #6d4f4f;" href="#cake">Shop</a></li>
+            <li><a style="color: #6d4f4f;" href="#shop">Products</a></li>
+            <li><a style="color: #6d4f4f;" href="#">Pages</a></li>
+            <li><a style="color: #6d4f4f;" href="#">Foxkit</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-bag-shopping"></i></li>
+          </ul>
+        </li>
+      </ul>
+      <center>
+        <div>Home&nbsp;>&nbsp;cake&nbsp;>&nbsp;Strawberry Short Cake Truffle Dozen box</div>
+      </center>
+    <section id="shopnow">
+    <div>
+        <img src="https://skins.minimog.co/cdn/shop/products/8_46124baa-b484-4afe-b916-7dfbb2e56007.jpg?v=1659518861&width=713" alt="">
+
+    </div>
+    <div id="d2">
+       <div> <span style="color: #6d4f4f;font-size:34px;">Strawberry Short Cake Truffle <br>Dozen box</span> <br> <br><span style="font-size: 24px;">$32.00</span></div>
+       <div class="quantity-box">
+        <button class="quantity-button decrease">-</button>
+        <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+        <button class="quantity-button increase">+</button>
+       
+        <button id="btn2">Add to Cart</button>
+      </div> 
+      <button id="button">Buy it Now</button><br><br>
+      <div style="color: #6d4f4f;"><i class="fa-solid fa-code-compare">&nbsp;Compare</i></div><br>
+      <div style="color: #6d4f4f;"><i class="fa-regular fa-circle-question">&nbsp;Ask a question</i></div><br>
+      <div style="color: #6d4f4f;"><i class="fa-solid fa-share-nodes"></i>&nbsp;Share</div><br><br><hr>
+      
+          
+    </div>
+    </section>
+    <center>
+    <div id="review">
+    
+    <div style="color: #6d4f4f;">Product description</div>
+    
+    <div style="color: #6d4f4f;">Shipping & Return</div>
+    <div style="color: #6d4f4f;">Product reviews</div>
+    
+    </div><hr>
+    <div style="padding: 20px;">Combining all the creamy, salty, buttery, fruity, unforgettably tasty flavors of strawberry shortcake in a single bite, our limited-time Strawberry Shortcake Cake Truffles are made with strawberry-studded vanilla cake, soaked in strawberry milk, and rolled in strawberry shortcake crumbs</div>
+    </center>
+    <!-- pppppppppppppppppppppppppppppppppp -->
+    <div style="color: #6d4f4f;font-size:32px;padding:10px;">You Might Also Like</div><br>
+    <div id="product" data-aos="fade-down">
+        <div>
+          <img
+            src="https://skins.minimog.co/cdn/shop/products/6_aca54fc4-6e3b-4a2d-81c8-6266fbb1a2a2.jpg?v=1659518807&width=360"
+            alt=""
+          /><br><br>Chocolate Short cake truffle <br> dozen box <br>$40.00
+        </div>
+
+        <div>
+          <img
+            src="https://skins.minimog.co/cdn/shop/products/7_93e9fa05-6552-4f57-b264-e94430da2c77.jpg?v=1659518838&width=360"
+            alt=""
+          /><br><br>B'day truffle dozen box <br>$32.00
+        </div>
+        <div>
+        <img
+            src="https://skins.minimog.co/cdn/shop/products/4_17de000d-8fa7-4349-846f-e754bf4fa7bd.jpg?v=1659518679&width=360"
+            alt=""
+          /> <br><br>Milky bar Pie <br>$25.00
+        </div>
+        <div>
+            <img src="https://skins.minimog.co/cdn/shop/products/11_90c3e4f2-aa8e-430c-bb48-3d536186f19a.jpg?v=1659518476&width=360" alt=""><br><br>Summer Splash <br>$32.00
+        </div>
+      </div>
+      <!-- hhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+      <div style="color: #6d4f4f;padding: 10px;font-size:32px;">Recently Viewed!</div>
+      <div id="product">
+        <div><img src="https://skins.minimog.co/cdn/shop/products/6_aca54fc4-6e3b-4a2d-81c8-6266fbb1a2a2.jpg?v=1659518807&width=360" alt=""><br>Chocolate B'day trufffle Dozen box </div>
+        <div><img src="https://cdn.shopify.com/s/files/1/0147/0962/0800/products/9a_88b73c53-55ce-4e48-b95b-c352721891b0.jpg?v=1659518267&width=360" alt=""><br>Assorted cookie tin</div>
+        <div> <img src="https://skins.minimog.co/cdn/shop/products/12_140052e8-2f69-41fe-8cde-c3074e9ea6ca.jpg?v=1659518549&width=360" alt=""><br>Summer Splash
+        </div>
+      </div>
+      <section id="last">
+        <div>
+          <div><span style="font-size: 32px;color:#6d4f4f">Don't miss a thing!</span></div><br><br>Enter your email below to be the first to know <br>about new collections and products. <br><br> <input style="width:200px;border:2px solid black;padding:10px" type="email" name="" placeholder="enter-email" id="">
+  
+        </div>
+        <div> 
+          <div style="color: #6d4f4f;">SERVICEs</div><br>
+          <div id="service">
+          <div><a href="">Privacy policy</a></div>
+          <div><a href="">Refund policy</a></div>
+          <div><a href="">Shipping & return</a></div>
+          <div><a href="">Term & conditions</a></div>
+          </div>
+        </div>
+        <div>
+          <div style="color: #6d4f4f;">INFORMATION</div><br>
+          <div id="service">
+          <div><a href="">My account</a></div>
+          <div><a href="">cart</a></div>
+          <div><a href="">Wishlist</a></div>
+          <div><a href="">Product compare</a></div>
+          </div>
+        </div>
+  
+      </section>
+  
+
+    
+</body>
+</html>
